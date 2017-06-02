@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #f5f5f5;font-family: "Microsoft YaHei","微软雅黑","MicrosoftJhengHei","华文细黑","Helvetica", "Arial", "sans-serif";
+}
+fieldset {
+    border: none;
+}
+
+.section-body {
+    position: relative;
+    /*padding-bottom: 83px;*/
+}
+
+/***** address-default *****/
+.address-item {
+    display: block;
+    padding: 10px 0;
+}
+.address-item p{
+    line-height: 18px;
+    font-size: 13px;
+    color: #3d4245;
+}
+.address-item .box>* {
+    display: block;
+    padding-bottom: 4px;
+}
+.address-item .box>:last-child {
+    -webkit-box-flex: 0
+}
+.address-item p b {
+    font-size: 14px;
+}
+.address-item p span{
+    font-size: 14px;
+}
+
+.address-default {
+    position: relative;
+    padding: 5px 38px 0 15px;
+    background-color: #5d6164;
+}
+.address-default .address-item p {
+    color: #ffffff;
+}
+.address-default::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-width: 22px;
+    border-style: solid;
+    border-color: #ff5e39 #ff5e39 transparent transparent;
+}
+
+.address-default .address-item:after {
+    content: attr(data-txt);
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    color: #fff;
+    font-size: 10px;
+}
+
+/***** address-list *****/
+.address-list {
+    margin-top: 12px;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../imagesborder.gif) 2 stretch;
+}
+.address-list li+li {
+    border-width: 1px 0 0;
+    -webkit-border-image: url(../imagesborder.gif) 2 stretch;
+}
+.address-select {
+    margin-top: 0;
+}
+.address-select li {
+    position: relative;
+    padding-right: 40px;
+}
+.address-select .default-txt {
+    color: #ff5e39;
+}
+.address-select li.on::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background: url(../imagesw_2.png) no-repeat center -962px;
+    -webkit-background-size: 50px auto;
+}
+
+/***** btn *****/
+.btn-wrap {
+    display: -webkit-box;
+    /*position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+    padding: 25px 15px;
+}
+.btn-wrap .btn {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-flex: 1;
+}
+.btn-wrap .btn+.btn {
+    margin-left: 15px;
+}
+.btn-wrap .btn-orange {
+    background-color: #cc3333;
+}
+.btn-wrap .btn-gray {
+    background-color: #656775;
+}
+
+/***** form-wrap *****/
+.form-wrap {
+    margin-top: 13px;
+    color: #333333;
+    overflow-x: hidden;
+}
+.form-wrap fieldset {
+    background-color: #ffffff;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../imagesborder.gif) 2 stretch;
+}
+
+.form-wrap .field {
+    margin: 0 15px;
+    padding: 11px 0;
+    line-height: 20px;
+}
+.form-wrap .field+.field {
+    border-width: 1px 0 0;
+    -webkit-border-image: url(../imagesborder.gif) 2 stretch;
+}
+.form-wrap .field.box {
+    width: auto;
+}
+.form-wrap .field-default {
+    line-height: 44px;
+    margin-top: 12px;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../imagesborder.gif) 2 stretch;
+}
+.form-wrap label {
+    display: -webkit-box;
+    position: relative;
+    -webkit-box-align: center;
+}
+.form-wrap .field label {
+    color: #888888;
+}
+.form-add .field>label::before {
+    content: '*';
+    position: absolute;
+    left: -8px;
+    top: 3px;
+    color: #ff0000;
+}
+
+.form-wrap .table {
+    width: 100%;
+    height: 43px;
+}
+.form-wrap .table label{
+    float: left;
+    display: block;
+    width: 33.33%;
+    white-space: nowrap;
+}
+.form-wrap .table label span{float: left;}
+
+.form-wrap input[type="text"],
+.form-wrap input[type="tel"],
+.form-wrap select {
+    display: block;
+    margin-left: 10px;
+    border: none;
+    -webkit-box-flex: 1;
+    background: none;
+    font-size: 14px;
+}
+.form-wrap .table select {
+    float: left;
+    width: 75%;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    font-size: inherit;
+    overflow: hidden;
+}
+
+.form-wrap .field.box>label:not(:last-child) select{
+    margin-right: 10px;
+}
+
+.form-wrap .select-address {
+    display: -webkit-box;
+    padding: 6px 0;
+    line-height: 30px;
+    text-align: center;
+}
+.form-wrap .select-address>a {
+    display: -webkit-box;
+    color: inherit;
+    -webkit-box-flex: 1;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.form-wrap .select-address>a+a {
+    border-left: 1px solid #e6e6e6;
+}
+.form-wrap .select-address i{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: url(../imagesw_2.png) no-repeat -50px;
+    -webkit-background-size: 50px auto;
+}
+.form-wrap .field .icon-weixin {
+    background-color: #61c527;
+    background-position: center -1662px;
+}
+.form-wrap .field .icon-location {
+    background-color: #f5b52b;
+    background-position: center -1712px;
+}
+
+.form-wrap input[type="checkbox"] {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff5e39;
+    border-radius: 50%;
+}
+.form-wrap input[type="checkbox"]:checked{
+    background-color: #ff5e39;
+    border-color: #ff5e39;
+}
+.form-wrap input[type="checkbox"]:checked::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 11px;
+    height: 6px;
+    border: 0 solid #ffffff;
+    border-width: 0 0 1px 1px;
+    -webkit-transform: rotate(-45deg);
+}
+
+/***** address-empty *****/
+.address-empty {
+    position: relative;
+    padding-top: 128px;
+}
+.address-empty::after {
+    content: attr(data-empty);
+    display: block;
+    padding: 100px 0 0;
+    line-height: 40px;
+    font-size: 17px;
+    color: #454545;
+    text-align: center;
+    background: url(../imagesw_7.png) no-repeat center top;
+    background-size: 90px auto;
+}
+.address-empty p {
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    right: 0;
+    font-size: 13px;
+    color: #aaaaaa;
+    text-align: center;
+}

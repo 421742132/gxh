@@ -1,0 +1,204 @@
+@charset "utf-8";
+.login {
+	position: relative;
+	padding-top: 1.31rem;
+}
+.login h2 {
+	width: 4.36rem;
+	height: 2.67rem;
+	margin: 0 auto 1.26rem;
+	color: transparent;
+	background: url(../images/logo.png);
+	background-size: 100% 100%;
+}
+.login div:nth-child(2) {
+}
+.login div:nth-child(3) {
+}
+.forget li,
+.login>div {
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 2.1rem;
+	color: #999;
+	font-size: 0.67rem;
+	line-height: 2.1rem;
+}
+.login>div {
+	height: auto;
+}
+.login>div {
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 0.95rem;
+}
+.forget li input ,
+.login div input {
+	outline: none;
+	width: 80%;
+	height: 2.1rem;
+}
+.login div input,
+.login div span {
+	float: left;
+}
+.login div span:nth-child(1) {
+	width: 0.67rem;
+	height: 2.1rem;
+	margin-right: 0.71rem;
+}
+.login div div:nth-child(1) {
+	border-bottom: 1px solid #e1e0e0;
+}
+.login div div:nth-child(1) span:nth-child(1) {
+	background: url(../images/iphone.png);
+	background-size: 100% 100%;
+}
+.login div div:nth-child(2) span:nth-child(1) {
+	background: url(../images/lock.png);
+	background-size: 100% 100%;
+}
+.login div span:nth-child(3) {
+	width: 0.64rem;
+	height: 2.1rem;
+	background: url(../images/empty.png);
+	background-size: 100% 100%;
+}
+.login .button {
+	display: block;
+	width: 91%;
+	height: 1.57rem;
+	margin: 0 auto 2.38rem;
+	background: #00bff3;
+	color: white;
+	font-size: 0.67rem;
+	line-height: 1.57rem;
+	text-align: center;
+	border-radius: 4px;
+}
+.login .for {
+	position: absolute;
+	right: 1.1rem;
+	top: 12.71rem;
+	height: 0.57rem;
+	color: #999;
+	font-size: 0.57rem;
+	line-height: 0.57rem;
+}
+.login p {
+	height: 0.9rem;
+	color: #666;
+	font-size: 0.52rem;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.login p a{
+	display: inline-block;
+	width: 3.14rem;
+	height: 0.9rem;
+	margin-left: 0.48rem;
+	border: 1px solid #00bff3;
+	text-align: center;
+	color: #00bff3;
+	line-height: 0.9rem;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+.modify li{
+	padding-left: 6%;
+}
+.modify li div {
+	height: 2.1rem;
+	color: #333;
+	font-size: 0.67rem;
+	line-height: 2.1rem;
+	border-top: 1px solid #ececec;
+}
+.modify li input {
+	outline: none;
+}
+.modify ul {
+	background: white;
+	margin-bottom: 0.69rem;
+	border-top:  1px solid #ececec;
+	border-bottom:  1px solid #ececec;
+}
+.modify li span {
+	width: 23%;
+	height: 2rem;
+	line-height: 2rem;
+}
+.modify li span,
+.modify li input {
+	float: left;
+}
+.modify li input {
+	color: #999;
+	width: 77%;
+	height: 2rem;
+	line-height: 2rem;
+}
+.modify .button {
+	display: block;
+	width: 91%;
+	height: 1.57rem;
+	margin: 0 auto 2.38rem;
+	background: #00bff3;
+	color: white;
+	font-size: 0.67rem;
+	line-height: 1.57rem;
+	text-align: center;
+	border-radius: 4px;
+}
+.forget li,
+.forget li:first-child {
+	border: 0;
+	border-bottom: 1px solid #e1e0e0;
+}
+.forget .clause {
+	position: relative;
+	height: 2rem;
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 2rem;
+	padding-left: 1.9rem;
+}
+.forget .clause span {
+	position: absolute;
+	left: 1rem;
+	top: 0.69rem;
+	width: 0.62rem;
+	height: 0.62rem;
+	background: url(../images/pay_flase.png);
+	background-size: 100% 100%;
+}
+.forget .button {
+	margin-top: 0.43rem;
+}
+.forget {
+}
+.forget .text {
+	margin-top: 1.19rem;
+	height: 0.9rem;
+    color: #666;
+    font-size: 0.52rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.forget .text a {
+	display: inline-block;
+    width: 3.14rem;
+    height: 0.9rem;
+    margin-left: 0.48rem;
+    border: 1px solid #00bff3;
+    text-align: center;
+    color: #00bff3;
+    line-height: 0.9rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

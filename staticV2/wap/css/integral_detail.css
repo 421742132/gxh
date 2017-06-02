@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* 积分明细 */
+html,body {
+	background: #f3f0ef;
+}
+.main {
+	width: 100%;
+}
+.top {
+	width: 92%;
+	height: 1.45rem;
+	margin: 0 auto;
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 1.45rem;
+	text-align: left;
+}
+.top i {
+	float: left;
+	width: 6.4%;
+	height: 0.9rem;
+	margin: 0.28rem 3% 0 0.1%;
+	background-image: url(../images/wealth/wea04.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.content {
+	width: 100%;
+	height: 4.05rem;
+	background-color: #fff;
+}
+.content p {
+	float: left;
+	width: 50%;
+	height: 4.05rem;
+}
+.content p span {
+	display: block;
+	width: 100%;
+	height: 1.67rem;
+	color: #333;
+	font-size: 0.57rem;
+	text-align: center;
+	line-height: 1.67rem;
+}
+.content p strong {
+	display: block;
+	width: 100%;
+	height: 0.86rem;
+	font-size: 1.1rem;
+	text-align: center;
+	line-height: 0.86rem;
+}
+.content-left strong {
+	color: #ff556f;
+}
+.content-right strong {
+	color: #999;
+}
+.content-right em{
+	display: block;
+	width: 100%;
+	height: 1.43rem;
+	color: #999;
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 1.43rem;
+}
+.list {
+	display: block;
+	width: 100%;
+}
+.list li {
+	display: block;
+	width: 100%;
+	height: 2.86rem;
+	margin-top: 0.24rem;
+	background-color: #fff;
+}
+.list-top {
+	display: block;
+	width: 90%;
+	height: 1.67rem;
+	margin: 0 auto;
+	line-height: 1.67rem;
+}
+.list-top span {
+	overflow: hidden;
+	float: left;
+	width: 82%;
+	height: 1.67rem; 
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 1.67rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.list-top strong {
+	float: right;
+	color: #666;
+	font-size: 0.57rem;
+}
+.list-bottom {
+	display: block;
+	width: 90%;
+	height: 0.79rem;
+	margin: 0 auto;
+	line-height: 0.79rem;
+}
+.list-bottom span {
+	float: left;
+	color: #999;
+	font-size: 0.43rem;
+}
+.list-bottom strong {
+	float: right;
+	color: #ff556f;
+	font-size: 0.55rem;
+	padding-right: 0.5%;
+}

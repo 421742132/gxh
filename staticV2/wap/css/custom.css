@@ -1,0 +1,29 @@
+@charset "utf-8";
+.supply-content .content li:nth-child(1) img {
+	display: block;
+	width:auto;
+	margin-bottom: 0.19rem;
+}
+
+.buy .button {
+	display: block;
+	width: 91%;
+	height: 1.57rem;
+	margin: 0 auto;
+	background: #00bff3;
+	color: white;
+	font-size: 0.67rem;
+	text-align: center;
+	line-height: 1.57rem;
+	border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-pay ul li .check{
+	float: right;
+    width: 0.71rem;
+    height: 0.71rem;
+    margin-top: 0.55rem;
+    background: url(../images/pay_true.png);
+    background-size: 100% 100%;
+}

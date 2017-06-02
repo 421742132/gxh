@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+i {
+    font-style: normal;
+}
+*{ padding:0; margin:o;border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+/* nav */
+.nav {
+    position: relative;
+    z-index: 100;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-bottom:1px solid #ececec;
+}
+.nav.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 400;
+}
+
+.nav li {
+    text-align: center;
+}
+.nav li a {
+    display: inline-block;
+    width: 65px;
+    line-height: 45px;
+    font-size: 15px;
+    color: #7e7e7e;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    -webkit-box-sizing: border-box;
+}
+.nav .on {
+    color: #fc6845;
+    border-bottom-color: #fc6845;
+}
+
+/* nav-content */
+.nav-item {
+    display: none;
+}
+.nav-item.on {
+    display: block;
+}
+
+/* goods-list */
+#goods-list {
+    overflow: hidden;
+}
+#goods-list li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border-right:1px solid #ececec;border-bottom:1px solid #ececec;
+}
+#goods-list li:nth-child(even) {
+    border-right-width: 0;
+}
+#goods-list li .img-wrap {
+    height: 176px;
+}
+#goods-list li p {
+    padding: 0 15px;
+}
+#goods-list li .title {
+    display: -webkit-box;
+    padding-top: 7px;
+    color: #666666;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#goods-list li .price {
+    padding-bottom: 6px;
+    line-height: 18px;
+}
+
+/* shop-list */
+#shop-list {
+    background-color: #f5f5f5;
+ 
+}
+#shop-list li {
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-width: 0 0 1px;
+    -webkit-border-image: url(../images/border.gif) 2 stretch;
+}
+#shop-list li+li {
+    margin-top: 12px;
+}
+#shop-list .title-wrap {
+    position: relative;
+}
+#shop-list .title-wrap a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 20px;
+}
+#shop-list .title-wrap .img-wrap {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+#shop-list .title-wrap::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #71787b;
+    border-width: 1px 1px 0 0;
+    -webkit-transform: rotate(45deg);
+}
+
+.newlist{
+    padding-bottom: 15px; overflow:hidden;
+}
+.newlist dl{
+    display: -webkit-box;
+}
+.newlist dd{
+    width: 30.2%;
+    height: 92px;
+}
+.newlist dd+dd{
+    margin-left: 14px;
+}
+.newlist dd{
+    width: 30.2%; float:left;
+}
+.newlist dd a{
+    position: relative;
+    display: block;
+    height: 92px;
+}
+.newlist dd a::after{
+    content: attr(data-price);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 8px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #000000;
+    background-color: rgba(255,255,255,.6);
+}
+.newlist-empty{
+    line-height: 35px;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+}
+
+#shop-list.empty {
+    background-color: #ffffff;
+}
+.empty::after {
+    content: attr(data-empty);
+    display: block;
+    margin-top: 96px;
+    padding: 100px 0 0;
+    line-height: 57px;
+    font-size: 17px;
+    color: #454545;
+    text-align: center;
+}
+#goods-list.empty::after {
+    background: url(../images/w_4.png) no-repeat center top;
+    background-size: 100px auto;
+}
+#shop-list.empty::after {
+    background: url(../images/w_5.png) no-repeat center top;
+    background-size: 100px auto;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+}
+.num-price {
+    font-size: 12px;
+    color: #ff5e39;
+}
+.num-price i {
+    padding-right: 1px;
+}
+
+/* favorite-footer */
+.favorite-footer .widget-wrap {
+    height: 53px;
+}
+.favorite-footer .fixed-btn {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    line-height: 52px;
+    text-align: center;
+    border-top: 1px solid #d8dcdf;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 -1px 0 #ebeced;
+}
+.favorite-footer .btn {
+    display: inline-block;
+    width: 45.5%;
+    height: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    border-radius: 18px;
+    background-color: #cc3333;
+}

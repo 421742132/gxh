@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* 结算样式 */
+body,html {
+	background-color: #f1f1f1;
+}
+.set-top {
+	width: 100%;
+	height: 2.29rem;
+	margin-top: 0.24rem;
+	background-color: #fff;
+}
+.set-top span {
+	float: left;
+	width: 20%;
+	height: 2.29rem;
+	color: #555;
+	font-size: 0.67rem;
+	line-height: 2.29rem;
+	text-align: center;
+}
+.set-top-input {
+	float: left;
+	width: 70%;
+	height: 2.29rem;
+	margin-left: 2%;
+	color: #555;
+	font-size: 0.6rem;
+	line-height: 2.29rem;
+}
+.set-wrap {
+	width: 89%;
+	height: 2.29rem;
+	margin: 0 auto;
+	color: #555;
+	font-size: 0.52rem;
+	line-height: 2.29rem;
+}
+.set-wrap span {
+	padding-left: 1%;
+}
+.set-main {
+	width: 100%;
+	height: 2.29rem;
+	background-color: #fff;
+}
+.set-main span {
+	float: left;
+	width: 28%;
+	height: 2.29rem;
+	color: #555;
+	font-size: 0.67rem;
+	line-height: 2.29rem;
+	text-align: center;
+}
+.set-main strong {
+	overflow: hidden;
+	float: right;
+	width: 57%;
+	height: 2.29rem;
+	margin-right: 11%;
+	color: #6bd1f6;
+	font-size: 0.62rem;
+	line-height: 2.29rem;
+	text-align: right;
+}
+.set-content {
+	width: 91%;
+	margin: 0 auto;
+}
+.set-content h2 {
+	display: block;
+	width: 100%;
+	height: 2rem;
+	color: #333;
+	font-size: 0.67rem;
+	line-height: 2rem;
+}
+.set-content ul {
+	display: block;
+	width: 100%;
+}
+.set-content ul li {
+	float: left;
+	width: 100%;
+	height: 0.62rem;
+	color: #333;
+	margin-bottom: 0.45rem;
+	line-height: 0.62rem;
+	text-indent: 0.1em;
+}
+.set-content ul li span {
+	color: #ff556f;
+}
+.spq-button-bac {
+	margin-top: 1rem !important;
+}

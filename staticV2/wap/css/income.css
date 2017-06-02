@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* 佣金收入 */
+body,html {
+	background-color: #f1f1f1;
+}
+.changes-main {
+	display: block;
+	width: 100%;
+	padding-bottom: 2.62rem;
+}
+.changes-main li {
+	display: block;
+	width: 100%;
+	height: 2.43rem;
+	margin-top: 0.24rem;
+	background-color: #fff;
+}
+.changes-main li p {
+	float: left;
+	width: 46%;
+	height: 2.43rem;
+	margin-left: 4.5%;
+}
+.changes-main li p span {
+	float: left;
+	width: 100%;
+}
+.changes-main li p span:nth-child(1) {
+	height: 1.38rem;
+	color: #333;
+	font-size: 0.62rem;
+	line-height: 1.38rem;
+}
+.changes-main li p span:nth-child(2) {
+	color: #999;
+	font-size: 0.48rem;
+}
+.changes-main li a strong {
+	float: left;
+	width: 39%;
+	height: 2.43rem;
+	color: #ff556f;
+	font-size: 0.57rem;
+	color: #ff556f;
+	line-height: 2.43rem;
+	text-align: right;
+}
+.changes-main li a  {
+	display: block;
+}
+.changes-main li a em {
+	float: right;
+	width: 2%;
+	height: 0.55rem;
+	margin: 0.95rem 6% 0 0%;
+	background-image: url(../images/wealth/wea08.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%; 
+}
+.changes-bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2.38rem;
+	background-color: #fff;
+	color: #000;
+	font-size: 0.67rem;
+	text-align: center;
+	line-height: 2.38rem;
+}
+.changes-bottom span {
+	color: #ea2745;
+}

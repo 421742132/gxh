@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*积分兑换*/
+body,html {
+	background-color: #f1f1f1;
+}
+.exch-main {
+	display: block;
+	width: 100%;
+}
+.exch-main li{
+	display: block;
+	width: 100%;
+	height: 5rem;
+	margin-top: 0.24rem;
+	background-color: #fff;
+}
+.exch-list {
+	float: left;
+	width: 95%;
+	height: 4.17rem;
+	margin: 0.36rem 0 0 2.5%;
+}
+.exch-list dt {
+	float: left;
+	width: 29%;
+	height: 4.17rem;
+}
+.exch-list dt a {
+	display: block;
+	width: 100%;
+	height: 4.17rem;
+}
+.exch-img {
+	display: block;
+	width: 100%;
+	height: 4.17rem;
+}
+.exch-list dd {
+	float: left;
+	width: 67%;
+	height: 4.17rem;
+	margin-left: 4%;
+}
+.exch-title {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 1.64rem;
+	color: #000;
+	font-size: 0.57rem;
+	line-height: 0.86rem;
+}
+.exch-text {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 1.8rem;
+	color: #999;
+	font-size: 0.52rem;
+	line-height: 1.8rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+}
+.exch-text span {
+	color: #ff556f;
+	font-size: 0.62rem;
+	padding-right: 2%;
+}
+.exch-long {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 0.52rem;
+	color: #999;
+	font-size: 0.52rem;
+	line-height: 0.52rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+}
+.exch-long span {
+	padding-left: 1%;
+}

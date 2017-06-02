@@ -1,0 +1,99 @@
+@media screen and (max-width: 380px) {
+	html{
+		font-size: 10px;
+	}
+}
+@media screen and (min-width: 380px) and (max-width:500px) {
+	html{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 500px) and (max-width:650px) {
+	html{
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 650px) {
+	html{
+		font-size: 14px;
+	}
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #f3f1ef;
+	font-size: 1.2rem;
+	font-family:"微软雅黑", Arial, helvetica,"华文黑体", "方正黑体简体";
+}
+.gray_solid{
+	
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-bottom: 1px solid #e1e1e1;
+	height: 0px;
+}
+.gray_portait_solid{
+	width: 1px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-left: 1px solid #e1e1e1;
+	height: 100%;
+	display: table-cell;
+}
+/* ------------------------------------------------ 头部 ------------------------------------ */
+header{
+	background: #cc3433;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	width: 100%;
+}
+header .button, .title{
+	display: table-cell;
+	height: 50px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+header .button{
+	width: 27%;
+	height: 50px;
+}
+header .title{
+	width: 46%;
+	font-size: 1.7rem;
+	margin-top: 0px;
+	line-height: 50px;
+}
+header .button .back{
+	overflow: hidden;
+	display: table-cell;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	padding: 2px 0px 0px 0px;
+}
+header .button .share{
+	overflow: hidden;
+	display: table-cell;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	padding: 2px 0px 0px 0px;
+	text-align: right;
+	float: right;
+}
+header .button .back img{
+	border: none;
+	width: 26px;
+	height: auto;
+	padding: 0px 0px 0px 10px;
+	vertical-align: middle;
+}
+/* ------------------------------------------------ 头部 ------------------------------------ */

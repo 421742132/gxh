@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* 首页 */
+/* 公共模块头部 */
+.search {
+	position: relative;
+	height: 2.05rem;
+	border-bottom: 1px solid #e1e0e0;
+	background: white;
+}
+.search input {
+	outline: none;
+	border: none;
+}
+.swiper-container{ background-color: #fff;}
+.search>div>a {
+	top: 0.62rem;
+}
+.search>div>a:nth-child(1) {
+	position: absolute;
+	left: 0.64rem;
+	width: 0.9rem;
+	height: 0.9rem;
+	background: url(../images/code.png);
+	background-size: 100% 100%;
+}
+.search>div>div {
+	overflow: hidden;
+	position: absolute;
+	background-color: #f1f1f1;
+	top: 0.48rem;
+	left: 2.19rem;
+	width: 62%;
+	height: 1.1rem;
+	border-radius: 0.55rem;
+	padding-left: 1.43rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.search>div>div a {
+	position: absolute;
+	top: 50%;
+	left: 0.48rem;
+	width: 0.62rem;
+	height: 0.62rem;
+	margin-top: -0.31rem;
+	background: url(../images/search_button.png);
+	background-size: 100% 100%;
+}
+.search>div>div input {
+	display: block;
+	background: #f1f1f1;
+	height: 100%;
+	width: 100%;
+	color: #666;
+	font-size: 0.57rem;
+	line-height: 0.9rem;
+}
+.search>div>a:nth-child(3) {
+	position: absolute;
+	right: 2.07rem;
+	width: 0.79rem;
+	height: 0.79rem;
+	background: url(../images/write.png);
+	background-size: 100% 100%;
+}
+.search>div>a:nth-child(4) {
+	top: 0.55rem;
+	position: absolute;
+	right: 0.48rem;
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url(../images/shopping_car.png);
+	background-size: 100% 100%;
+}
+.search>div>a:nth-child(4) span {
+	position: absolute;
+	right: -7px;
+	top: -7px;
+	width: 0.48rem;
+	height: 0.48rem;
+	color: white;
+	background-color: #00bff3;
+	text-align: center;
+	line-height: 0.48rem;
+	border-radius: 50%;
+	font-size: 0.28rem;
+}
+.top {
+	/*float: left;*/
+	width: 100%;
+	height: 1.67rem;
+	background-color: #fff;
+	border-bottom: 1px solid #eeeeee;
+}
+.zhum {
+	margin-top: -0.2rem;
+}
+.top p {
+	float: left;
+	width: 80%;
+	height: 0.67rem;
+	margin: 0.52rem 0 0 4%;
+	border-left: 6px solid #00c0ff;
+	line-height: 0.67rem;
+}
+.top p span {
+	color: #000;
+	font-size: 0.67rem;
+	padding: 0 5% 0 3%;
+}
+.top p strong {
+	color: #999;
+	font-size: 0.48rem;
+}
+.top a {
+	float: right;
+	width: 11%;
+	height: 0.67rem;
+	margin: 0.52rem 2% 0 0;
+	border-left: 1px solid #999;
+	color: #999;
+	font-size: 0.48rem;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.buy-span {
+	padding-right: 0.2rem;
+}
+#swiper-demo {
+    overflow: hidden;
+    width: 100%;
+    height: 6.62rem;
+    margin-bottom: 0.48rem;
+    background-color: #fff;
+}
+.rut img{
+    display: block;
+    margin-top: 0.24rem;
+    width: 100%;
+    height: 4.29rem;
+}
+.giet {
+    display: block;
+    width: 100%;
+    height: 0.7rem;
+    margin-top: 0.24rem;
+    color: #000;
+    font-size: 0.52rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+.demoting {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.demoting strong,
+.demoting span {
+    color: #ff556f;
+    font-size: 0.52rem;
+}
+/* 内容 */
+.logo {
+	/*float: left;*/
+	width: 100%;
+	height: 8.57rem;
+	margin-bottom: 0.48rem;
+	background-color: #fff;
+}
+.logo-one {
+	position: relative;
+	float: left;
+	width: 49.7%;
+	height: 8.57rem;
+	border-right: 1px solid #eee;
+}
+.logo-long {
+	position: relative;
+	float: left;
+	width: 49.9%;
+	height: 4.23rem;
+}
+.logo-long dt,
+.logo-long dt a,
+.logo-long dt a img {
+	display: block;
+	width: 100%;
+	height: 4.23rem;
+}
+.logo-long dd {
+	display: block;
+	position: absolute;
+	top: 0.3rem;
+	left: 5%;
+	width: 93%;
+	z-index: 1; 
+}
+.logo-long dd h2 {
+	color: #ff556f;
+	font-size: 0.67rem;
+}
+.logo-long dd span {
+	color: #999;
+	font-size: 0.48rem;
+}
+.logo-demo {
+	border-bottom: 1px solid #eee;
+}
+.logo-one dt,
+.logo-one dt a,
+.logo-one dt a img {
+	display: block;
+	width: 100%;
+	height: 8.57rem;
+}
+.logo-one dd {
+	display: block;
+	position: absolute;
+	top: 0.3rem;
+	left: 9%;
+	width: 93%;
+	z-index: 1;
+}
+.logo-one dd a {
+	display: block;
+}
+.logo-long dd a {
+	display: block;
+}
+.logo-one dd h2 {
+	color: #00bff3;
+	font-size: 0.67rem;
+}
+.logo-one dd span {
+	color: #999;
+	font-size: 0.48rem;
+}
+
+.bottom {
+	width: 100%;
+	/*margin-bottom: 2.5rem;*/
+	background-color: #fff;
+}
+.list {
+	float: left;
+	width: 95%;
+	height: 5.71rem;
+	margin: 0.24rem 0 0 2.5%;
+	padding-bottom: 0.25rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.list1 {
+	float: left;
+	width: 95%;
+	height: 2.71rem;
+	margin: 0 0 0 2.5%;
+	padding-bottom: 0.25rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.list-host {
+	display: block;
+	width: 100%;
+	height: 5.71rem;
+}
+.list-left {
+	float: left;
+	width: 60%;
+	height: 5.71rem;
+}
+.list-left img:nth-child(1) {
+	float: left;
+	width: 66%;
+	height: 5.71rem;
+	margin-right: 3%;
+}
+.list-left img:nth-child(2) {
+	margin-bottom: 0.24rem;
+}
+.list-left img:nth-child(2),
+.list-left img:nth-child(3){
+	float: left;
+	width: 31%;
+	height: 2.74rem;
+}
+.list-right {
+	float: right;
+	width: 35%;
+	height: 5.71rem;
+}
+.list-right h2 {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 1.47rem;
+    line-height: 0.735rem;
+	margin: 0.55rem 0 0.52rem;
+	color: #000;
+	font-size: 0.57rem;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.list-right strong {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 1rem;
+	color: #ff556f;
+	font-size: 0.76rem;
+	line-height: 1rem;
+}
+.list-right span {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 0.59rem;
+	color: #999;
+	font-size: 0.57rem;
+	line-height: 0.59rem;
+	text-decoration: line-through;
+}
+.list-right p {
+	display: block;
+	width: 100%;
+	margin-top: 0.6rem;
+	color: #999;
+	font-size: 0.56rem;
+}
+.swiper-slide a{
+	display: block;
+}

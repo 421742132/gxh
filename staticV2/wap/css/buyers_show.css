@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* 买家秀样式 */
+body,html {
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1ed;
+}
+.buy-main {
+	display: block;
+	width: 100%;
+	padding-bottom: 0.5rem
+}
+.buy-main li {
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+	background-color: #fff;
+}
+.buy-content {
+	width: 94%;
+	margin: 0 auto;
+}
+.buy-top {
+	display: block;
+	width: 100%;
+	height: 2.86rem;
+	border-bottom: 0.07rem solid #dcdcdc;
+}
+.buy-top dt {
+	float: left;
+	width: 13%;
+	height: 1.9rem;
+	margin: 0.48rem 2% 0 1%;
+}
+.buy-top dt span {
+	display: block;
+	width: 100%;
+	height: 1.9rem;
+	background-image: url(../images/data4.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.buy-top dd {
+	overflow: hidden;
+	float: left;
+	width: 84%;
+	height: 1.9rem;
+	margin-top: 0.48rem;
+}
+.buy-top dd span {
+	float: left;
+	color: #333;
+	font-size: 0.57rem;
+	padding-top: 0.1rem;
+}
+.buy-top dd strong {
+	float: right;
+	color: #333;
+	font-size: 0.57rem;
+	padding-top: 0.1rem;
+}
+.buy-wrap {
+	overflow: hidden;
+	width: 100%;
+}
+.buy-img {
+	float: left;
+	width: 102%;
+	margin-right: -2%;
+}
+.buy-wrap h2 {
+	display: block;
+	width: 100%;
+	height: 1.48rem;
+	color: #999;
+	font-size: 0.57rem;
+	line-height: 1.48rem;
+	text-indent: 0.15em;
+}
+.buy-img span {
+	float: left;
+	width: 48%;
+	height: 6.86rem;
+	margin: 0 2% 0.48rem 0;
+	background-image: url(../images/data2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.buy-nav {
+	width: 100%;
+}
+.buy-nav p {
+	float: left;
+	width: 21%;
+	height: 2.95rem;
+	margin: 0 3% 0.38rem 0;
+}
+.buy-nav p span {
+	float: left;
+	width: 100%;
+	height: 0.88rem;
+	margin-top: 2.08rem;
+	color: #fff;
+	font-size: 0.52rem;
+	text-align: center;
+	line-height: 0.88rem;
+	background-color: rgba(0,0,0,.5);
+}
+.buy-nav-long {
+	background-image: url(../images/data2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.buy-nav-bac {
+	background-image: url(../images/data2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}

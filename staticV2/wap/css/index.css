@@ -1,0 +1,234 @@
+@charset "utf-8";
+html {min-height: 100%;background: #f1f1f1;}
+.code {
+	position: relative;
+}
+.code .name {
+	position: absolute;
+	width: 100%;
+	top: 1rem;
+	left: 0;
+	height: 2.33rem;
+	line-height: 2.33rem;
+}
+.free-shipping .header dt {
+	position: relative;
+}
+.free-shipping .header {
+	margin-bottom: 0.24rem;
+}
+.free-shipping .header dt img{
+	display: block;
+	width: 100%;
+	height: 6.79rem;
+}
+.free-shipping .header dt div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1.8rem;
+	margin-left: -4.78rem;
+	width: 9.56rem;
+	height: 3.6rem;
+	background: rgba(255,255,255,.5);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 0.81rem;
+	line-height: 0.95rem;
+	padding-top: 0.57rem;
+}
+.free-shipping .header dt p {
+	display: inline-block;
+	padding: 0 0.67rem;
+	background: #ff556f;
+	color: white;
+	margin-top: 0.38rem;
+	font-size: 0.57rem;
+	line-height: 0.95rem;
+}
+.free-shipping .header dd {
+	height: 2.29rem;
+	background: white;
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 0.86rem;
+	overflow: hidden;
+	padding: 0.24rem 3% 0;
+}
+.free-shipping .content {
+	padding: 0.24rem 1.25% 0;
+	background: white;
+}
+.free-shipping .content li {
+	float: left;
+	width: 49.5%;
+	margin-bottom: 0.24rem;
+}
+.free-shipping .content li:nth-child(2n+1) {
+	margin-right: 1%;
+}
+.free-shipping .content li img {
+	display: block;
+	width: 100%;
+	height: 7.5rem;
+}
+.free-shipping .content dl {
+	position: relative;
+}
+.free-shipping .content dl dd {
+	border: 1px solid #e1e0e0;
+	border-top: 0;
+}
+.free-shipping .content dl dd p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 1.33rem;
+	padding-left: 0.43rem;
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 1.33rem;
+}
+.free-shipping .content dl dd div {
+	padding-left: 0.43rem;
+	height: 0.67rem;
+	line-height: 0.67rem;
+	padding-bottom: 0.52rem;
+}
+.free-shipping .content dl dd div span {
+	float: left;
+}
+.free-shipping .content dl dd div span:nth-child(1) {
+	color: #ff556f;
+	font-size: 0.67rem;
+}
+.free-shipping .content dl dd div span:nth-child(2) {
+	color: #bdbdbd;
+	font-size: 0.52rem;
+	text-decoration: line-through;
+}
+.free-shipping .content dl dd div span:nth-child(3) {
+	position: absolute;
+	top: 0.24rem;
+	left: 0;
+	height: 0.74rem;
+	padding-left: 0.57rem;
+	color: white;
+	background-color: #ff556f;
+	font-size: 0.57rem;
+	line-height: 0.74rem;
+}
+.free-shipping .content dl dd div span:nth-child(3):before {
+	position: absolute;
+	right: -0.6rem;
+	top: 0;
+	content: "\200B";
+	width: 0.6rem;
+	height: 0.74rem;
+	background: url(../images/arrow2.png);
+	background-size: 100% 100%;
+}
+.sign .header {
+	margin-bottom: 0.24rem;
+}
+.sign .header,
+.sign .content .title,
+.sign .content li{
+	background: white;
+}
+.sign .header .title {
+	border-bottom: 1px solid #e1e0e0;
+}
+.sign .header .text {
+	color: #666;
+	height: 1.81rem;
+	font-size: 0.57rem;
+	line-height: 1.81rem;
+	text-indent: 0.26rem;
+}
+.sign .header .text a {
+	float: right;
+}
+.sign .header .title {
+	position: relative;
+	padding-bottom: 0.62rem;
+}
+.sign .header .title p {
+	text-indent: 0.26rem;
+}
+.sign .header .title p:nth-child(1) {
+	height: 2.05rem;
+	color: #333;
+	font-size: 0.67rem;
+	line-height: 2.05rem;
+}
+.sign .header .title p:nth-child(2) {
+	height: 0.57rem;
+	color: #666;
+	font-size: 0.57rem;
+	line-height: 0.57rem;
+}
+.sign .header .title p span {
+	position: absolute;
+	top: 1.55rem;
+	right: 0.29rem;
+	width: 2.86rem;
+	height: 0.86rem;
+	border: 1px solid #00bff3;
+	color: #00bff3;
+	font-size: 0.57rem;
+	/*text-align: center;*/
+	line-height: 0.86rem;
+}
+.sign .content .title {
+	border-bottom: 1px solid #e1e0e0;
+	color: #333;
+	height: 1.81rem;
+	font-size: 0.67rem;
+	line-height: 1.81rem;
+	text-indent: 0.26rem;
+}
+.sign .content li {
+	padding: 0.29rem 2%;
+	margin-bottom: 0.24rem;
+}
+.sign .content li img {
+	display: block;
+	width: 5.17rem;
+	height: 5.17rem;
+}
+.sign .content li dt,
+.sign .content li dd {
+	float: left;
+}
+.sign .content li dt {
+	margin-right: 0.29rem;
+}
+.sign .content li dd {
+	width: 62%;
+}
+.sign .content li dd h3 {
+	color: #333;
+	font-size: 0.57rem;
+	line-height: 0.76rem;
+	padding-top: 0.19rem;
+	margin-bottom: 1.05rem;
+}
+.sign .content li dd p:nth-child(2) {
+	color: #ff556f;
+	font-size: 0.62rem;
+	line-height: 0.62rem;
+	margin-bottom: 1rem;
+}
+.sign .content li dd p:nth-child(2) span {
+	color: #333;
+	margin-left: 2.52rem;
+}
+.sign .content li dd p:nth-child(3) {
+	color: #999;
+	font-size: 0.52rem;
+}

@@ -1,0 +1,279 @@
+@CHARSET "UTF-8";
+
+/* ------------------------------------------------ 确认支付 ------------------------------------ */
+.payment_info_bar{
+	margin: 8px 0px;
+	background: white;
+	padding: 0px 0px 0px 12px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+.payment_info_bar .item{
+	padding: 12px 0px 12px 0px;
+	overflow: hidden;
+}
+.payment_info_bar .item .tag{
+	display: inline-block;
+	width: 28%;
+	vertical-align: text-top;
+	font-size: 1.4rem;
+}
+.payment_info_bar .item .content{
+	display: inline-block;
+	width: 70%;
+	vertical-align: text-top;
+	font-size: 1.4rem;
+}
+.payment_info_bar .item .text{
+	border: none;
+	width: 70%;
+	line-height: auto;
+	padding: 0px 0px 0px 0px;
+	font-size: 1.4rem;
+	vertical-align: text-top;
+}
+.payment_info_bar .item .small{
+	width: 35%;
+}
+.payment_info_bar .item .button{
+	border: none;
+	width: 34%;
+	line-height: auto;
+	padding: 0px 0px 0px 0px;
+	font-size: 1.4rem;
+	vertical-align: text-top;
+	height: 44px;
+	background: #ffcc33;
+	color: white;
+}
+.payment_info_bar .nopadding{
+	padding: 0px 0px 0px 0px;
+}
+.payment_info_bar .nopadding .nopadding_container{
+	padding: 12px 0px 12px 0px;
+}
+.payment_info_bar .nopadding .tag{
+	padding-top: 12px;
+}
+.payment_info_bar .nopadding .text{
+	margin-top: 14px;
+}
+.payment_info_bar .item .price{
+	color: #ff3e11;
+}
+.payment_info_bar .item .img{
+	display: inline-block;
+	width: 42%;
+	vertical-align: middle;
+}
+.payment_info_bar .item .img img{
+	width: 100%;
+	vertical-align: middle;
+}
+.payment_info_bar .item .left{
+	float: left;
+}
+.payment_info_bar .item .right{
+	float: right;
+}
+.payment_info_bar .checkbox{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-image: url("../images/icon_checkbox_no.png");
+	vertical-align: middle;
+	margin: 8px 20px 0px 0px;
+}
+.payment_info_bar .checkbox_checked{
+	background-image: url("../images/icon_checkbox_ok.png");
+}
+
+
+
+.payment_info_bar .checkbox01{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+
+	vertical-align: middle;
+	margin: 8px 20px 0px 0px;
+}
+.payment_info_bar .checkbox_checked01{
+	background-image: url("../images/icon_checkbox_ok.png");
+}
+
+
+
+
+.payment_tip_bar{
+	padding: 6px 18px 6px 18px;
+}
+.payment_tip_bar .content{
+	color: #ff3000;
+	font-size: 1.4rem;
+}
+.payment_tip_bar .gray{
+	color: #999999;
+}
+.payment_tip_bar .small{
+	font-size: 1.2rem;
+}
+.payment_btn_bar{
+	padding: 8px 18px 6px 14px;
+}
+.payment_btn_bar .submit{
+	background: #00cccb;
+	color: white;
+	font-size: 1.4rem;
+	font-family: "微软雅黑";
+	width: 100%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.payment_btn_bar .submit1{
+	background: #cc3333; margin-right:2%; margin-left:3%;
+	color: white;
+	font-size: 1.4rem;
+	font-family: "微软雅黑";
+	width: 45%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	float:left;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+
+.payment_btn_bar .submit2{
+	background: #00cccb; margin-left:4%;
+	color: white;
+	font-size: 1.4rem;
+	font-family: "微软雅黑";
+	width: 45%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	float:left;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.payment_info_bar .kyjr{ margin:8px 10px 0px 0px; color:#ff6b50;}
+.qxbud{ padding-left:0px;}
+.qxbudzjs{ padding-left:12px;}
+.qxbjbs{ background:#FFF;}
+.jiange8{ height:8px; width:auto; background:#f4f4f4;}
+.manlas{ margin-left:3%;}
+/* ------------------------------------------------ 确认支付 ------------------------------------ */
+
+/* ------------------------------------------------ 收货信息 ------------------------------------ */
+.wx_location_bar{
+	padding: 8px 18px 6px 14px;
+	text-align: right;
+}
+.wx_location_bar .button{
+	text-decoration: none;
+	color: #ff6600;
+	font-size: 1.6rem;
+}
+.wx_location_bar .button img{
+	border: none;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	margin: 0px 2px;
+}
+.payment_info_bar .input_block{
+	overflow: hidden;
+}
+.payment_info_bar .input_block .left{
+	float: left;
+}
+.payment_info_bar .input_block .right{
+	float: right;
+}
+.payment_info_bar .input_block .label{
+	display: inline-block;
+	width: 26%;
+	font-size: 1.4rem;
+}
+.payment_info_bar .input_block .labe2{
+	display: inline-block;
+	width: 46%;
+	font-size: 1.4rem;
+}
+
+
+.payment_info_bar .input_block .block{
+	display: block;
+}
+.payment_info_bar .input_block .content{
+	border: none;
+	font-size: 1.6rem;
+	display: inline-block;
+	width: 70%;
+}
+.payment_info_bar .input_block .content .text{
+	border: none;
+	font-size: 1.4rem;
+	background: none;
+	width: 100%;
+}
+.payment_info_bar .input_block .content .btn-select{
+	overflow: hidden;
+	width: 90%;
+	display: inline-block;
+}
+.payment_info_bar .input_block .content .select{
+	border: none;
+	font-size: 1.4rem;
+	background: none;
+	width: 110%;
+}
+.payment_info_bar .input_block .content .icon{
+	border: none;
+	width: 6%;
+	vertical-align: text-top;
+}
+
+.payment_info_bar .input_block  .icon01{
+	border: none;
+	width: 20px; padding-right:5px;
+	vertical-align: bottom;
+}
+
+
+
+.payment_info_bar .input_block .content .textarea{
+	border: none;
+	font-size: 1.4rem;
+	background: none;
+	width: 100%;
+	height: 80px;
+}
+/* ------------------------------------------------ 收货信息 ------------------------------------ */
